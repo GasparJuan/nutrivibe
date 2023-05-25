@@ -13,7 +13,6 @@
     box-sizing: border-box;
 }
 
-
 .logotipo {
     background-color: var(--colorNavbar);
 }
@@ -27,6 +26,7 @@
     height: 40px;
     color: #000000;
     font-family: var(--fuentePrincipal);
+    font-weight: 700;
     margin-bottom:30px;
 
 }
@@ -42,7 +42,7 @@
     font-size: xx-large;
     color: #000000;
 }
-fggdfgdfgdfgfdgfd
+
 .links {
     text-decoration: none;
     font-family: var(--fuentePrincipal);
@@ -69,6 +69,10 @@ a:link {
     height: 400px;
 }
 
+.nosotros h2 {
+    font-family: var(--fuentePrincipal);
+    font-weight: 700;
+}
 .productos {
     margin: 30px;
 }
@@ -81,6 +85,8 @@ a:link {
 .menu h2{
     margin-top: 10px;
     text-align: center;
+    font-family: var(--fuentePrincipal);
+    font-weight: 700;
 }
 .flecha {
     position: absolute;
@@ -116,6 +122,8 @@ hr { /* Not really supposed to work, but does */
 }
 .contacto h2{
     text-align: center;
+    font-family: var(--fuentePrincipal);
+    font-weight: 700;
 }
 .boton {
     margin-left: 560px;
