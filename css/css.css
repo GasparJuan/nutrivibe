@@ -22,12 +22,12 @@
 }
 
 .navegacion {
-    background-color: #ffff;
+    background-image: url(../img/backgroundnav.png);
     height: 40px;
     color: #000000;
     font-family: var(--fuentePrincipal);
     font-weight: 700;
-    margin-bottom:30px;
+    padding-bottom: 70px;
 
 }
 
@@ -73,6 +73,10 @@ a:link {
     font-family: var(--fuentePrincipal);
     font-weight: 700;
 }
+
+.nosotros-texto {
+    background-image: url(../img/backgroundnav.png);
+}
 .productos {
     margin: 30px;
 }
@@ -81,6 +85,9 @@ a:link {
     display: flex;
     justify-content: space-between;
 
+}
+.texto-nutricionista {
+    background-image: url(../img/backgroundnav.png);
 }
 .menu h2{
     margin-top: 10px;
@@ -119,6 +126,7 @@ hr { /* Not really supposed to work, but does */
     width: 80%;
     margin: 20px auto 20px auto;
     border: solid;
+    background-image: url(../img/backgroundnav.png);
 }
 .contacto h2{
     text-align: center;
